@@ -167,6 +167,5 @@ This lab supports a complete attack lifecycle:
 
 ---
 
-## 📂 Project Structure
 
 
