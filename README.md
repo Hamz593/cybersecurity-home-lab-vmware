@@ -56,9 +56,18 @@ An isolated internal network simulates a real enterprise LAN within a single mac
 ### ⚔️ Attacker Machines
 
 #### Kali Linux
+- Network scanning (Nmap)  
+- Service enumeration  
+- Exploitation  
+- Post-exploitation  
+
 ![Kali Linux](screenshots/kali.png)
 
 #### Parrot OS
+- Alternative offensive toolset  
+- Attack simulation diversity  
+
+
 ![Parrot OS](screenshots/parrot.png)
 
 > Used for reconnaissance, enumeration, exploitation, and post-exploitation
@@ -68,12 +77,24 @@ An isolated internal network simulates a real enterprise LAN within a single mac
 ### 🎯 Target Systems
 
 #### Ubuntu Linux Target
+- SSH brute force simulations  
+- Misconfiguration exploitation  
+- Privilege escalation
+  
 ![Ubuntu](screenshots/ubuntu.png)
 
 #### Windows 11 (Standalone)
+- Local privilege escalation  
+- Credential harvesting  
+- Persistence testing
+  
 ![Windows 11](screenshots/win11.png)
 
 #### Windows 11 (Domain Joined)
+- Lateral movement  
+- Domain-based attacks  
+- Kerberos exploitation
+  
 ![Windows 11 Domain](screenshots/win11D.png)
 
 > Used for privilege escalation, credential harvesting, and lateral movement
@@ -83,59 +104,20 @@ An isolated internal network simulates a real enterprise LAN within a single mac
 ### 🏢 Active Directory Infrastructure
 
 #### Windows Server 2022 (Domain Controller)
+- Active Directory Domain Services  
+- Central authentication  
+- User & policy management
+  
 ![Windows Server 2022](screenshots/winserv2022.png)
 
 #### Windows Server 2019 (Member Server)
+- Service account configurations  
+- Attack path simulation  
+- Privilege differentiation
+
 ![Windows Server 2019](screenshots/winserv2019.png)
 
 > Core of domain-based attack simulation and authentication
-
----
-
-## ⚔️ Attack Machines
-
-### Kali Linux
-- Network scanning (Nmap)  
-- Service enumeration  
-- Exploitation  
-- Post-exploitation  
-
-### Parrot Security OS
-- Alternative offensive toolset  
-- Attack simulation diversity  
-
----
-
-## 🎯 Target Systems
-
-### Ubuntu Linux
-- SSH brute force simulations  
-- Misconfiguration exploitation  
-- Privilege escalation  
-
-### Windows 11 (Standalone)
-- Local privilege escalation  
-- Credential harvesting  
-- Persistence testing  
-
-### Windows 11 (Domain-Joined)
-- Lateral movement  
-- Domain-based attacks  
-- Kerberos exploitation  
-
----
-
-## 🏢 Active Directory Environment
-
-### Windows Server 2022 (Domain Controller)
-- Active Directory Domain Services  
-- Central authentication  
-- User & policy management  
-
-### Windows Server 2019 (Member Server)
-- Service account configurations  
-- Attack path simulation  
-- Privilege differentiation  
 
 ---
 
