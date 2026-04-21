@@ -44,6 +44,54 @@ An isolated internal network simulates a real enterprise LAN within a single mac
 
 ---
 
+## 🖼️ Lab Screenshots
+
+### 🏗️ Architecture Overview
+![Architecture](images/architecture.png)
+
+> Isolated lab network design (10.10.1.0/24)
+
+---
+
+### ⚔️ Attacker Machines
+
+#### Kali Linux
+![Kali Linux](images/kali.png)
+
+#### Parrot OS
+![Parrot OS](images/parrot.png)
+
+> Used for reconnaissance, enumeration, exploitation, and post-exploitation
+
+---
+
+### 🎯 Target Systems
+
+#### Ubuntu Linux Target
+![Ubuntu](images/ubuntu.png)
+
+#### Windows 11 (Standalone)
+![Windows 11](images/win11.png)
+
+#### Windows 11 (Domain Joined)
+![Windows 11 Domain](images/win11D.png)
+
+> Used for privilege escalation, credential harvesting, and lateral movement
+
+---
+
+### 🏢 Active Directory Infrastructure
+
+#### Windows Server 2022 (Domain Controller)
+![Windows Server 2022](images/winserv2022.png)
+
+#### Windows Server 2019 (Member Server)
+![Windows Server 2019](images/winserv2019.png)
+
+> Core of domain-based attack simulation and authentication
+
+---
+
 ## ⚔️ Attack Machines
 
 ### Kali Linux
@@ -138,4 +186,5 @@ This lab supports a complete attack lifecycle:
 ---
 
 ## 📂 Project Structure
+
 
